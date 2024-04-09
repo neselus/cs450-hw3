@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import dash_bootstrap_components as dbc
 
 # Load the dataset
-df = pd.read_csv('C:\\Users\\nlus2\\OneDrive\\Desktop\\Spring 2024\\CS450\\ProcessedTweets.csv')
+df = pd.read_csv('ProcessedTweets.csv')
 
 # Create Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
