@@ -104,5 +104,7 @@ def update_selected_tweets(selected_data):
             selected_tweets.append({'RawTweet': point['hovertext']})
     return selected_tweets
 
+server = app.server
+
 if __name__ == '__main__':
     app.run_server(debug=True)
